@@ -1,0 +1,18 @@
+{
+  "name": "swap-to-level",
+  "version": "0.0.0",
+  "description": "Key value store that stores stuff in memory if the dataset is smaller than a max and then swaps to leveldb afterwards.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/level-swap.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/level-swap/issues"
+  },
+  "homepage": "https://github.com/mafintosh/level-swap"
+}
