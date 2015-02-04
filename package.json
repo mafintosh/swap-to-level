@@ -4,7 +4,11 @@
   "description": "Key value store that holds datasets in memory until they reach a given size and then swaps them to leveldb",
   "main": "index.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "memdb": "^0.2.0",
+    "standard": "^2.4.1",
+    "tape": "^3.5.0"
+  },
   "scripts": {
     "test": "standard && tape test.js"
   },
