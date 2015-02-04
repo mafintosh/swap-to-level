@@ -1,6 +1,6 @@
 # swap-to-level
 
-Key value store that stores stuff in memory if the dataset is smaller than a `max` and then swaps to leveldb afterwards.
+Key value store that holds datasets in memory until they reach a given size and then swaps them to leveldb
 
 ```
 npm install swap-to-level

@@ -1,10 +1,13 @@
 {
   "name": "swap-to-level",
   "version": "0.0.0",
-  "description": "Key value store that stores stuff in memory if the dataset is smaller than a max and then swaps to leveldb afterwards.",
+  "description": "Key value store that holds datasets in memory until they reach a given size and then swaps them to leveldb",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {},
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mafintosh/level-swap.git"
