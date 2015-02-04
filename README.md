@@ -19,8 +19,8 @@ store.put('hello', 'world', function (err) {
 ... insert 4 more values ...
 
 store.put('another', 'one', function (err) {
-  // since we inserted 6 values the data is now
-  // stored in leveldb
+  // since we inserted 6 values ALL of the inserted data have
+  // been swapped to being stored in leveldb instead of memory
 })
 ```
 
