@@ -6,6 +6,8 @@ Key value store that holds datasets in memory until they reach a given size and 
 npm install swap-to-level
 ```
 
+[![build status](http://img.shields.io/travis/mafintosh/swap-to-level.svg?style=flat)](http://travis-ci.org/mafintosh/swap-to-level)
+
 ## Usage
 
 ``` js
