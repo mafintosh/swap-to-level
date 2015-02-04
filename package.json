@@ -1,6 +1,6 @@
 {
   "name": "swap-to-level",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Key value store that holds datasets in memory until they reach a given size and then swaps them to leveldb",
   "main": "index.js",
   "dependencies": {},
